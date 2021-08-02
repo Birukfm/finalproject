@@ -4,10 +4,13 @@ import 'package:imgmt_test1/pages/Login.dart';
 import 'package:imgmt_test1/pages/Signup.dart';
 import 'package:imgmt_test1/pages/TypesofInsurance.dart';
 
+
 class MainLandingPage extends StatelessWidget {
   MainLandingPage({
     Key? key,
   }) : super(key: key);
+
+
 
   @override
   Widget build(BuildContext context) {

@@ -3,6 +3,7 @@ import 'package:adobe_xd/pinned.dart';
 import 'Component71.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
+
 class Signup extends StatelessWidget {
   Signup({
     Key? key,

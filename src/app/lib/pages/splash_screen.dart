@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:imgmt_test1/utils/flutkart.dart';
 import 'package:imgmt_test1/utils/my_navigator.dart';
@@ -7,6 +7,7 @@ import 'package:imgmt_test1/utils/my_navigator.dart';
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
+  final Future<FirebaseApp> _fbApp = Firebase.initializeApp();
 }
 
 class _SplashScreenState extends State<SplashScreen> {
