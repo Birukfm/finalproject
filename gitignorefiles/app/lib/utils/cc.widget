@@ -1,0 +1,12 @@
+IntlPhoneField(
+decoration: InputDecoration(
+labelText: 'Phone Number',
+border: OutlineInputBorder(
+borderSide: BorderSide(),
+),
+),
+initialCountryCode: 'ET',
+onChanged: (phone) {
+print(phone.completeNumber);
+},
+)
